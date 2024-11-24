@@ -1,0 +1,11 @@
+# dbt_project.yml
+
+name: "retail"
+
+profile: "retail"
+
+models:
+  retail:
+    materialized: table
+
+target-path: target
